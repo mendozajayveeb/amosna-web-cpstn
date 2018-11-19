@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	height: 10vh;
+}
+
+.navbar-brand {
+	font-family: 'Courgette', cursive;
+	font-size: 2rem;
+}
+
+.home {
+	position: relative;
+}
+
+.height {
+	height: 90vh;
+}
+
+.home > .title > h1 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 8rem;
+	color: #333;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	text-shadow: 25px 25px 35px;
+}
