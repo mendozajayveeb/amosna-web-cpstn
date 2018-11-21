@@ -276,4 +276,99 @@ h2 {
 /*TABLET VIEW*/
 @media only screen and (min-width: 451px) and (max-width: 768px){
 
+	p, 
+	.btn-text,
+	label,
+	small {
+		font-size: 1rem;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+	}
+
+	/*LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE */
+	#jumbotron-section h1 {
+		font-size: 1.5rem;
+	}
+
+	#jumbotron-section p {
+		font-size: 1rem;
+	}
+
+	#jumbotron-section {
+	top: 35%;
+	width: 80%;
+	}
+
+	/*HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE*/
+
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+
+	.navbar {
+		height: 15%;
+		position: unset;
+		/*visibility: hidden;*/
+	}
+
+	.home {
+		height: 100vh;
+		background-color: red;
+	}
+
+	.carousel-item img {
+		height: 100vh;
+	}
+
+	/*ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE */
+
+	.about {
+		padding-top: 0;
+		background-image: unset;
+		height: 60vh;
+	}
+
+	.about-content {
+		padding-top: 1rem;
+	}
+
+	/*SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE */
+
+	.services {
+		padding-top: 1rem;
+		background-color: #FFFFE0;
+	}
+
+	/*CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE */
+
+	.contact {
+		height: 150vh;
+		padding-top: 13vh;
+	}
+
+	.form-control {
+		height: 2rem;
+	}
+
+	.btn {
+		margin-bottom: 1rem;
+	}
+
+	/*FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE */
+	.footer-social {
+		width: 20%;
+	}
+
+	.footer-social-link {
+		border: 1px solid #FFFFE0;
+		border-radius: 50%;
+		height: 40px;
+		width: 40px;
+		float: left;
+		margin-left: 5px;
+		position: relative;
+	}
+
 }
