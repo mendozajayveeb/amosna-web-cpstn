@@ -251,6 +251,24 @@ h2 {
 		width: 100%;
 	}
 
+	/*LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE */
+
+	.welcome {
+		width: 80%;
+	}
+
+	.welcome h3 {
+		font-size: 1rem;
+	}
+
+	.welcome h1 {
+		font-size: 2.5rem;
+	}
+
+	.s-up {
+		text-align: center;
+	}
+
 	/*HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE */
 
 	.title-content {
@@ -363,6 +381,26 @@ h2 {
 
 	#jumbotron-section .btn {
 		width: 100%;
+	}
+
+	/*LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE */
+
+	.welcome {
+		width: 80%;
+		position: relative;
+		top: 20rem;
+	}
+
+	.welcome h3 {
+		font-size: 1rem;
+	}
+
+	.welcome h1 {
+		font-size: 2.5rem;
+	}
+
+	.s-up {
+		text-align: center;
 	}
 
 	/*HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE */
