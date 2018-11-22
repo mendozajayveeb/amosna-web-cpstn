@@ -15,7 +15,15 @@ h2 {
 
 /*LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE */
 
+.logsign {
+	background-image: url(../images/paradisebg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
 .welcome {
+	background-color: white;
 	width: 50%;
 	margin: 0 auto;
 	padding: 2rem;
@@ -36,9 +44,15 @@ h2 {
 
 /*SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE */
 
+.signup {
+	height: 115vh;
+	background-image: url(../images/paradisebg.jpg);
+}
+
 .signup-form {
 	box-shadow: 0px 2px 5px #888888;
 	border-radius: 10px;
+	background-color: white;
 }
 
 /*LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE */
