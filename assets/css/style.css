@@ -23,7 +23,7 @@ h2 {
 }
 
 .welcome {
-	background-color: white;
+	background-color: rgba(0,0,0,0.7);
 	width: 50%;
 	margin: 0 auto;
 	padding: 2rem;
@@ -32,6 +32,8 @@ h2 {
 	top: 5rem;
 	box-shadow: 0px 2px 5px #888888;
 	position: relative;
+	border: 3px solid #f2f2f2;
+	color: #f2f2f2;
 }
 
 .welcome h1 {
@@ -119,6 +121,7 @@ h2 {
 
 .home {
 	height: 100vh;
+	background-color: #333;
 	/*background-image: url(../images/mayon.jpeg);*/
 	/*background-size: cover;*/
 	/*background-position: center;*/
@@ -130,7 +133,7 @@ h2 {
 }
 
 .crs-container {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -170,6 +173,13 @@ h2 {
 	margin-bottom: 1rem;
 	padding: 1rem;
 }
+
+.package {
+	/*background-color: red;*/
+	margin-bottom: 2rem;
+}
+
+
 
 /*CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE */
 
@@ -357,16 +367,20 @@ h2 {
 		height: 50vh;
 	}
 
+	.crs-container {
+		width: 100%;
+	}
+
 	/*ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE */
 
 	.about {
-		height: 100vh;
+		height: 85vh;
 		background-image: unset;
 		box-shadow: 0px 5px 10px #888888;
 	}
 
 	.about-content {
-		padding-top: 25vh;
+		padding-top: 15vh;
 	}
 
 	.mission {
@@ -516,6 +530,14 @@ h2 {
 
 	.carousel-item > img {
 		height: 50vh;
+	}
+
+	.crs-container {
+		width: 100%;
+	}
+
+	.crs-container {
+		background-color: red;
 	}
 
 	/*ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE */
