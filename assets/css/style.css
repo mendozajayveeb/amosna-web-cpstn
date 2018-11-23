@@ -45,7 +45,7 @@ h2 {
 /*SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE */
 
 .signup {
-	height: 115vh;
+	height: 100vh;
 	background-image: url(../images/paradisebg.jpg);
 }
 
@@ -53,6 +53,8 @@ h2 {
 	box-shadow: 0px 2px 5px #888888;
 	border-radius: 10px;
 	background-color: white;
+	padding: 2rem;
+	margin-top: 2rem;
 }
 
 /*LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE */
@@ -91,7 +93,8 @@ h2 {
 /*HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE*/
 
 .navbar {
-	background-color: #333;
+	background-color: rgba(0,0,0,0.2);
+	/*border-bottom: 1px solid black;*/
 	position: fixed;
 	z-index: 2;
 	width: 100%;
@@ -102,6 +105,7 @@ h2 {
 	padding: 0;
 	border: 2px solid;
 	border-color: transparent;
+	font-weight: bold;
 }
 
 .navbar .nav-item a:hover {
@@ -115,6 +119,9 @@ h2 {
 
 .home {
 	height: 100vh;
+	/*background-image: url(../images/mayon.jpeg);*/
+	/*background-size: cover;*/
+	/*background-position: center;*/
 }
 
 .mobile-banner {
@@ -236,11 +243,19 @@ h2 {
 	.btn-text,
 	label,
 	small {
-		font-size: .7rem;
+		font-size: 1rem;
 	}
 
 	h2 {
 		font-size: 1.5rem;
+	}
+
+	.navbar {
+		background-color: #333;
+	}
+
+	.navbar a {
+		font-weight: unset;
 	}
 
 	.navbar .nav-item a:hover {
@@ -265,10 +280,200 @@ h2 {
 		width: 100%;
 	}
 
+	/*SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE */
+
+	.signup {
+		height: 130vh;
+		background-image: url(../images/paradisebg.jpg);
+	}
+
+	.signup-form {
+		margin-top: 1.5rem;
+	}
+
+	.signup-form h1 {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+
+	.signup-form p {
+		font-size: .8em;
+	}
+
+	.signup-form small {
+		font-size: .8rem;
+	}
+
 	/*LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE */
 
 	.welcome {
 		width: 80%;
+		top: 8rem;
+	}
+
+	.welcome h3 {
+		font-size: 1rem;
+	}
+
+	.welcome h1 {
+		font-size: 2.5rem;
+	}
+
+	.welcome small {
+		font-size: .8rem;
+	}
+
+	.s-up {
+		text-align: center;
+	}
+
+	/*HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE */
+
+	.title-content {
+		width: 60%;
+		margin: 0 auto;
+		padding: 5px;
+		/*border: 1px solid black;*/
+		border-radius: 15px 0 15px 0;
+		box-shadow: 0px 5px 10px #888888;
+		background-color: white;
+	}
+
+	.home {
+		height: 50vh;
+	}
+
+	.mobile-banner h1 {
+		color: #333;
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	.carousel {
+		box-shadow: 0px 5px 15px #888888;
+	}
+
+	.carousel-item > img {
+		height: 50vh;
+	}
+
+	/*ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE */
+
+	.about {
+		height: 100vh;
+		background-image: unset;
+		box-shadow: 0px 5px 10px #888888;
+	}
+
+	.about-content {
+		padding-top: 25vh;
+	}
+
+	.mission {
+		margin-bottom: 3rem;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.vision {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	/*SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE */
+
+	.services {
+		padding-top: 11vh;
+		background-color: #FFFFE0;
+	}
+
+	.card-description {
+		margin-top: 1rem;
+	}
+
+	/*CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE */
+
+	.contact {
+		height: 142vh;
+	}
+
+	#contact-form2 {
+		margin-top: 1.3rem;
+		height: 30vh;
+	}
+
+	.justSpace {
+		display: none;
+	}
+
+	/*FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE */
+
+	.footer {
+		margin-top: 1rem;
+	}
+
+	.author {
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+/*TABLET VIEW*/
+@media only screen and (min-width: 451px) and (max-width: 768px){
+
+	p, 
+	.btn-text,
+	label,
+	small {
+		font-size: 1rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	.navbar {
+		background-color: #333;
+	}
+
+	.navbar a {
+		font-weight: unset;
+	}
+
+	.navbar .nav-item a:hover {
+		border-bottom: unset;
+	}
+
+	/*SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE SIGNUP-PAGE */
+
+	.signup-form {
+		margin-top: 13rem;
+	}
+
+	/*LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE */
+	#jumbotron-section h1 {
+		font-size: 1.5rem;
+	}
+
+	#jumbotron-section p {
+		font-size: 1rem;
+	}
+
+	#jumbotron-section {
+	top: 35%;
+	width: 80%;
+	}
+
+	#jumbotron-section .btn {
+		width: 100%;
+	}
+
+	/*LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE */
+
+	.welcome {
+		width: 80%;
+		top: 20rem;
 	}
 
 	.welcome h3 {
@@ -316,13 +521,24 @@ h2 {
 	/*ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE */
 
 	.about {
-		height: 55vh;
+		height: 50vh;
 		background-image: unset;
 		box-shadow: 0px 5px 10px #888888;
 	}
 
 	.about-content {
-		padding-top: 5rem;
+		padding-top: 10vh;
+	}
+
+	.mission {
+		margin-bottom: 3rem;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.vision {
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 
 	/*SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE */
@@ -339,12 +555,17 @@ h2 {
 	/*CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE */
 
 	.contact {
-		height: 142vh;
+		height: 105vh;
+		padding-top: 10vh;
 	}
 
 	#contact-form2 {
 		margin-top: 1.3rem;
 		height: 30vh;
+	}
+
+	.justSpace {
+		display: none;
 	}
 
 	/*FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE */
@@ -356,118 +577,5 @@ h2 {
 	.author {
 		width: 100%;
 		text-align: center;
-	}
-
-}
-
-/*TABLET VIEW*/
-@media only screen and (min-width: 451px) and (max-width: 768px){
-
-	p, 
-	.btn-text,
-	label,
-	small {
-		font-size: .9rem;
-	}
-
-	h2 {
-		font-size: 1.5rem;
-	}
-
-	.navbar .nav-item a:hover {
-		border-bottom: unset;
-	}
-
-
-	/*LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE LANDING-PAGE */
-	#jumbotron-section h1 {
-		font-size: 1.5rem;
-	}
-
-	#jumbotron-section p {
-		font-size: 1rem;
-	}
-
-	#jumbotron-section {
-	top: 35%;
-	width: 80%;
-	}
-
-	#jumbotron-section .btn {
-		width: 100%;
-	}
-
-	/*LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE LOGIN-PAGE */
-
-	.welcome {
-		width: 80%;
-		position: relative;
-		top: 20rem;
-	}
-
-	.welcome h3 {
-		font-size: 1rem;
-	}
-
-	.welcome h1 {
-		font-size: 2.5rem;
-	}
-
-	.s-up {
-		text-align: center;
-	}
-
-	/*HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE HOME-PAGE */
-
-	.carousel {
-		box-shadow: 0px 5px 15px #888888;
-	}
-
-	.carousel-item > img {
-		height: 100vh;
-	}
-
-	/*ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE ABOUT-PAGE */
-
-	.about {
-		height: 100vh;
-		background-image: unset;
-		box-shadow: 0px 5px 10px #888888;
-	}
-
-	.about-content {
-		padding-top: 35vh;
-	}
-
-	/*SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE SERVICES-PAGE */
-
-	.services {
-		padding-top: 13vh;
-		background-color: #FFFFE0;
-	}
-
-	.card-description {
-		margin-top: 1rem;
-	}
-
-	/*CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE CONTACT-PAGE */
-
-	.contact {
-		height: 100vh;
-	}
-
-	#contact-form2 {
-		margin-top: 1.3rem;
-		height: 30vh;
-	}
-
-	/*FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE FOOTER-PAGE */
-
-	.footer {
-		margin-top: 5rem;
-	}
-
-	.author small {
-		font-size: 1rem;
 	}
 }
